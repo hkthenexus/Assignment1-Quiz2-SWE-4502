@@ -38,7 +38,7 @@ public class Main {
                 items2,
                 OrderFactory.PaymentType.PAYPAL,
                 ppMeta,
-                List.of(OrderFactory.Option.INSURANCE) // just to show decorator
+                List.of(OrderFactory.Option.INSURANCE) 
         );
 
         bundle2.processor.process(bundle2.order);
