@@ -9,3 +9,4 @@ final class DigitalOrderProcessor extends OrderProcessor {
     @Override protected void shipOrFulfill(Order order) {
         System.out.println("[FULFILL] Emailing download links / license keys...");
     }
+}
